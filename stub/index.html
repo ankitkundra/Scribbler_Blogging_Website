@@ -2,6 +2,7 @@
 <html>
 <head>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Place all CSS for header in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
 
@@ -11,7 +12,7 @@
 	<!-- Place all CSS for fonts in this file -->
     <link href='css\font.css' rel='stylesheet' type='text/css'>
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
 
 </head>
 <body>
@@ -21,9 +22,9 @@
 
         	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
         	   
-         
-            <button class="btn btn-primary float-right btnSpace" >Sign In</button>
-        	<button class="btn btn-primary float-right btnSpace">Sign Up</button>
+            <button class="btn btn-primary float-right btnSpace" id="btn2">Sign Up</button>
+            <button class="btn btn-primary float-right btnSpace" id="btn1">Sign In</button>
+        	
         	<p id="pageTitle" class="logo-title ">ScriBBler</p>
             <p class="middleText">Explore. Imagine. Create</p>
         	
@@ -34,7 +35,7 @@
         <div class="postButtons">
 
         	<!-- Insert code for All Posts & Create Post button here -->
-        	<button class="btnS" >All Posts</button><br>
+        	<a href="html\bloglist.html" class="btn btnS" >All Posts</a>
         	<button class="btnS" >Create Post </button>
 
         </div>
@@ -43,12 +44,64 @@
     <div>
 
     	<!-- Insert code for Sign In modal here -->
+    	<!-- The Modal -->
+        <div id="SignInModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content ">
+        <div class="modal-header">
+        
+        <h2 class="alignh2">Welcome Back!</h2>
+        <span class="close" id="close1">&times;</span>
+        </div>
+        
+        <div class="modal-body container">
+          <form >
+                 
+              <label for="uname">Username</label>
+              <div><input type="text" placeholder="Enter Username" name="uname" required></div>
+              <label for="pass">Password</label>
+              <div><input type="Password" placeholder="Enter Password" name="pass" required></div>
+              <button type="submit" class="button">Login</button>
+          </form>
+              <span style="margin: 0 auto;">Not a member?</span><a href=#>Sign Up</a>
+        </div>
+        </div>
+        </div>
 
     </div>
 
     <div>
 
     	<!-- Insert code for Sign Up modal here -->
+    	<!-- The Modal -->
+        <div id="SignUpModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content ">
+        <div class="modal-header">
+        
+        <h2 class="alignh2">Get Started</h2>
+        <span class="close" id="close2">&times;</span>
+        </div>
+        
+        <div class="modal-body container">
+          <form >
+              <label for="uname">Full Name</label>
+              <div><input type="text" placeholder="Enter Full Name" name="name" required></div>   
+              <label for="uname">Username</label>
+              <div><input type="text" placeholder="Enter Username" name="uname" required></div>
+              <label for="pass">Password</label>
+              <div><input type="Password" placeholder="Enter Password" name="pass" required></div>
+              <label for="cpass">Confirm Password</label>
+              <div><input type="Password" placeholder="Confirm Password" name="cpass" required></div>
+              <button type="submit" class="button">Sign Up</button>
+          </form>
+              
+        </div>
+        </div>
+        </div>
+    	
 
     </div>
 
