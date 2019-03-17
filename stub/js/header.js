@@ -37,3 +37,8 @@ close2.onclick = function(){
     SignUpModal.style.display ="none";
 }
 
+function showModal(){
+    console.log("modal changed");
+    SignUpModal.style.display ="block";
+    SignInModal.style.display ="none";
+}
