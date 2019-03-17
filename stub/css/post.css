@@ -2,18 +2,84 @@
     font-size: 150%;
     font-family: 'Abel', sans-serif;
     font-weight: bold;
+    margin-left: 500px;
+    width: 250px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .blogText {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-.blogAuthor {
+     width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+   text-align: justify;
+    }
+.blogAuthor{
     padding: 0px 0px 0px 10px;
-    font-family: 'Niconne', cursive;
     font-size: 30px;
+    margin-left:40px;
 }
-.blogContent{
-
+#author{
+    font-family: 'Niconne', cursive;
 }
-
+#editButton{
+    background-color: deeppink;
+    color: white;
+    margin-right: 85px;
+    width: 80px;
+    font-style: normal !important;
+}
+#saveButton{
+    display: none;
+    background-color: deeppink;
+    color: white;
+    margin-right: 85px;
+    width: 80px;
+    font-style: normal !important;
+}
+.mainDivButtom{
+    margin-left:50px!important;
+}
+#likeBlog{
+    background-color: deeppink;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#addComment{
+  background-color: deeppink;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 5px;  
+}
+#comment{
+    width: 700px;
+    margin-top: 30px;
+}
+#mainCommentdivison{
+    display: flex;
+    flex-direction:column-reverse; 
+    background-color: grey!important;
+    text-align: justify;
+    padding: 3px;
+    width: 700px;
+}
+.commentText{
+    display: block;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#commentPost{
+ margin: 15px;
+background-color: white;
+color: black;
+height: 40px;
+vertical-align: middle;
+}
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
