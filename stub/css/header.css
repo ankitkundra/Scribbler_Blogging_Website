@@ -26,7 +26,10 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
   /*padding: 2px 16px;
   background-color: #5cb85c;*/
   font-family: lato;
+    display: block !important;
+    
 }
+
 .modal-body {padding: 2px 16px;}
 .modal-content {
   position: relative;
@@ -57,6 +60,8 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
   float: right;
   font-size: 50px;
   font-weight: bold;
+
+    
 }
 
 .close:hover,
@@ -87,8 +92,13 @@ input{
 .button:hover {
   opacity: 0.8;
 }
-.alignh2
+.formath2
 {
-    margin: 0 auto;
+    color: black !important;
+    text-align: center !important;
+    
+}
+label{
+    color: black !important;
 }
 
